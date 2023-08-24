@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+li{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+
+    &._center{
+        justify-content: center;
+        gap: 5px;
+    }
+}
+
+a{
+    color: var(--primary-color, #5429FF);
+
+/* Text 2 */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+text-decoration: none;
+}

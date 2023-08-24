@@ -1,0 +1,46 @@
+.forms{
+    &:not(:last-child){
+        margin-bottom: 20px;
+    }
+    display: block;
+    &__title{
+        margin-bottom: 8px;
+        color: var(--secondary-color, #344054);
+
+
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+
+    }
+
+    &__input-wrapper{
+        position: relative;
+    }
+
+    &__input-svg{
+        cursor: pointer;
+        position: absolute;
+        right: 14px;
+        top: 50%;
+        transform: translateY(-50%);
+
+        span{
+            display: flex;
+        }
+    }
+
+    
+
+    &__input{
+        height: 44px;
+        width: 100%;
+        display: block;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid #d0d5dd;
+        background: transparent;
+    }
+}

@@ -1,0 +1,118 @@
+.form{
+    max-width: 360px;
+    margin: auto;
+
+        &__btn{
+            display: grid;
+            gap: 16px;
+            margin-top: 32px;
+            margin-bottom: 20px;
+        }
+    &__title{
+        color: #344054;
+
+/* Headline */
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.4px;
+text-transform: capitalize;
+        margin-bottom: 8px;
+    }
+    &__desc{
+        color: #667085;
+
+/* Text 1 */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+margin-bottom: 56px;
+        
+    }
+}
+
+.forms{
+    &:not(:last-child){
+        margin-bottom: 20px;
+    }
+    display: block;
+    &__title{
+        margin-bottom: 8px;
+        color: var(--secondary-color, #344054);
+
+
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+
+    }
+
+    &__input{
+        height: 44px;
+        width: 100%;
+        display: block;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid #d0d5dd;
+        background: transparent;
+    }
+}
+
+.chk{
+    display: inline-flex;
+    align-items: center ;
+    gap: 8px;
+    span{
+        color: var(--secondary-color, #344054);
+
+/* Text 2 */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+    }
+}
+
+
+.btn{
+    display: inline-flex;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 12px ;
+
+    justify-content: center;
+    gap: 10px ;
+
+    &._primary{
+        border-radius: 8px;
+background: var(--primary-color, #5429FF);
+color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
+    }
+    &._secondary{
+        border-radius: 8px;
+        border: 1px solid var(--accent-1, #D0D5DD);
+        background: transparent;
+        color: var(--secondary-color, #344054);
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; /* 125% */
+    }
+
+
+}
